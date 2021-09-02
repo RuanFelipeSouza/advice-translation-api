@@ -1,0 +1,8 @@
+{
+  "extends": "standard-with-typescript",
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "project": "./tsconfig.json"
+  }
+}
