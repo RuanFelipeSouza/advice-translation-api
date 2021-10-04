@@ -8,7 +8,7 @@ export class Advice implements IAdviceController {
     return data.slip.advice;
   }
   async getAdviceId(): Promise<string>{
-    const {data} = await axios.get(API_URL);    
+    const {data} = await axios.get(API_URL);
     return data.slip.id;
   }
 }
